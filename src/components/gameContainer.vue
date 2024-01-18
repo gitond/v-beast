@@ -3,22 +3,20 @@
     import titleScene from './titleScene.vue';
     import { ref } from 'vue';
 
-    let currentScene = ref('title');
+    let currentScene = ref(titleScene);
 
     function gs(){
-        console.log(currentScene);
-        currentScene.value = 'game';
-        console.log(currentScene);
+        currentScene.value = gameScene;
     }
 </script>
 
 <template>
     <div class="gamecontainer">
-        <titleScene 
-            v-if="currentScene === 'title'"
+        <component
+            :is="currentScene"
+            class="scene"
             @gameStart="gs"
-        />
-        <gameScene />
+        ></component>
     </div>
 </template>
 

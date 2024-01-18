@@ -2,7 +2,6 @@
     /*
         the game is played in a 25y40x grid
     */
-
     let gamestate = [];
     // filling the gamestate with empty tiles
     for (let i = 0; i<25; i++){
