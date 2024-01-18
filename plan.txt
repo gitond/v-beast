@@ -1,0 +1,17 @@
+setup vue project
+setup git
+have grid on screen in a container
+implement some kind of scene controller in gamecontainer
+have grid resize based on window size
+have app force phone to horizontal mode
+have app react to keyboard input
+have app react to touch swipe input
+have character moving on grid on input
+have solid walls on edges & a few on the board randomly scattered
+have movable walls the player can move around
+have beasts on the grid moving generally in the direction of player
+make beasts killable by squishing with movable walls
+make beasts able to kill player by touching him/her
+make the game count score
+implement main menu
+implement game over screen
